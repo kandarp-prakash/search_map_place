@@ -129,7 +129,7 @@ class MapSampleState extends State<MapPage> with SingleTickerProviderStateMixin 
               icon: IconData(0xE8BD, fontFamily: 'feather'),
               // clearIcon: IconData(0xE8F6, fontFamily: 'feather'),
               iconColor: Colors.teal[200].withOpacity(0.8),
-              // placeType: PlaceType.establishment,
+              placeTypes: ['establishment'],
               location: _initialCamera.target,
               radius: 30000,
               onSelected: (place) async {
